@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    padding:  10px 0 !important;
+}
+.navbar ul li a {
+    font-weight: 500;
+    color: #fff !important;
+}
+.section-show .menu ul li {
+    display: inline-block;
+    margin-top: 50px;
+}
+.section-show .menu ul li a{
+    text-decoration: none;
+    background-color: #2A2A2A;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 35px;
+}
+.section-show .menu ul li .active{
+    background-color: #6F6F6F;
+}
+.card-show:hover{
+    background-color: #272727;
+    padding: 10px;
+}
+.card-show .bg-top .overlay {
+    background-color: rgba();
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.card-show .bg-top .overlay i {
+    opacity: 0;
+}
+.card-show:hover .overlay i {
+    opacity: 1;
+}
+.card-show .bg-top .overlay i:hover {
+    box-shadow: 0 0 30px red;
+    transform: scale(1.2);
+    transition: all.5s ease-in;
+}
+footer ul li {
+    margin-left: -45px;
+    padding-bottom: 17px;
+    list-style: none;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #fff !important;
+    font-weight: 400;
+    opacity: 0.8;
+}
+footer h5 {
+    font-weight: 600;
+    padding-bottom: 17px;
+}
+
+
+@media (min-width: 300px) { 
+    .section-banner .text-content h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .section-banner .text-content p {
+        font-size: 10px;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .section-banner  .row {
+        display: flex;
+        justify-content: center;
+    }
+    ul li {
+        padding: 0px;
+    } 
+    .navbar .bt {
+        margin-top: 15px;
+    }
+    .navbar button {
+        display: block;
+    }
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 400px) { 
+    .section-banner .text-content h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .section-banner .text-content p {
+        font-size: 13px;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .section-banner  .row {
+        display: flex;
+        justify-content: center;
+    }
+    ul li {
+        padding: 0px;
+    } 
+    .navbar .bt {
+        margin-top: 15px;
+    }
+    .navbar button {
+        display: block;
+    }
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .section-banner .text-content h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .section-banner .text-content p {
+        font-size: 17px;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .section-banner  .row {
+        display: flex;
+        justify-content: center;
+    }
+    ul li {
+        padding: 0px;
+    } 
+    .navbar .bt {
+        margin-top: 15px;
+    }
+    .navbar button {
+        display: block;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .section-banner .text-content h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .section-banner .text-content p {
+        font-size: 17px;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .section-banner  .row {
+        display: flex;
+        justify-content: center;
+    }
+    ul li {
+        padding: 0px;
+    } 
+    .navbar .bt {
+        margin-top: 15px;
+    }
+    .navbar button {
+        display: block;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .section-banner .text-content h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .section-banner .text-content p {
+        font-size: 17px;
+    }
+    .section-banner .text-content {
+        text-align: left;
+    }
+    .section-banner  .row {
+        display: flex;
+        justify-content: left;
+    }
+    ul li {
+        padding: 0 15px;
+    } 
+    .navbar .bt {
+        margin-top: 0px;
+    }
+    .navbar button {
+        display: none;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .section-banner .text-content h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .section-banner .text-content p {
+        font-size: 17px;
+    }
+    .section-banner .text-content {
+        text-align: left;
+    }
+    .section-banner  .row {
+        display: flex;
+        justify-content: left;
+    }
+    ul li {
+        padding: 0 15px;
+    } 
+    .navbar .bt {
+        margin-top: 0px;
+    }
+    .navbar button {
+        display: none;
+    }
+ }
